@@ -134,7 +134,7 @@
             // 
             // pictureBox_term
             // 
-            this.pictureBox_term.Location = new System.Drawing.Point(19, 35);
+            this.pictureBox_term.Location = new System.Drawing.Point(19, 58);
             this.pictureBox_term.Name = "pictureBox_term";
             this.pictureBox_term.Size = new System.Drawing.Size(27, 118);
             this.pictureBox_term.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -155,7 +155,7 @@
             this.label_termNow.AutoSize = true;
             this.label_termNow.BackColor = System.Drawing.Color.Transparent;
             this.label_termNow.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label_termNow.Location = new System.Drawing.Point(19, 161);
+            this.label_termNow.Location = new System.Drawing.Point(64, 161);
             this.label_termNow.Name = "label_termNow";
             this.label_termNow.Size = new System.Drawing.Size(28, 35);
             this.label_termNow.TabIndex = 3;
