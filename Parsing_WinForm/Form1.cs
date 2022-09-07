@@ -88,8 +88,45 @@ namespace Parsing_WinForm
             label45.Text = matchColl.Groups[6].Value;
             label46.Text = matchColl.Groups[7].Value;
             label47.Text = matchColl.Groups[8].Value;
-
-
+            ///
+            htmlNodes = htmlDoc.DocumentNode.SelectNodes("//tbody//tr");
+            tempString = htmlNodes[5].InnerText;
+            tempString = tempString.Replace("&deg;", "°").Replace(" :", ":").Replace("   ", " ").Replace("  ", " ");
+            matchColl = Regex.Match(tempString, " (.*) (.*) (.*) (.*) (.*) (.*) (.*) (.*) ");
+            label50.Text = matchColl.Groups[1].Value;
+            label51.Text = matchColl.Groups[2].Value;
+            label52.Text = matchColl.Groups[3].Value;
+            label53.Text = matchColl.Groups[4].Value;
+            label54.Text = matchColl.Groups[5].Value;
+            label55.Text = matchColl.Groups[6].Value;
+            label56.Text = matchColl.Groups[7].Value;
+            label57.Text = matchColl.Groups[8].Value;
+            ///
+            htmlNodes = htmlDoc.DocumentNode.SelectNodes("//tbody//tr");
+            tempString = htmlNodes[6].InnerText;
+            tempString = tempString.Replace("&deg;", "°").Replace(" :", ":").Replace("   ", " ").Replace("  ", " ");
+            matchColl = Regex.Match(tempString, " (.*) (.*) (.*) (.*) (.*) (.*) (.*) (.*) ");
+            label60.Text = matchColl.Groups[1].Value;
+            label61.Text = matchColl.Groups[2].Value;
+            label62.Text = matchColl.Groups[3].Value;
+            label63.Text = matchColl.Groups[4].Value;
+            label64.Text = matchColl.Groups[5].Value;
+            label65.Text = matchColl.Groups[6].Value;
+            label66.Text = matchColl.Groups[7].Value;
+            label67.Text = matchColl.Groups[8].Value;
+            ///
+            htmlNodes = htmlDoc.DocumentNode.SelectNodes("//tbody//tr");
+            tempString = htmlNodes[7].InnerText;
+            tempString = tempString.Replace("&deg;", "°").Replace(" :", ":").Replace("   ", " ").Replace("  ", " ");
+            matchColl = Regex.Match(tempString, " (.*) (.*) (.*) (.*) (.*) (.*) (.*) (.*) ");
+            label70.Text = matchColl.Groups[1].Value;
+            label71.Text = matchColl.Groups[2].Value;
+            label72.Text = matchColl.Groups[3].Value;
+            label73.Text = matchColl.Groups[4].Value;
+            label74.Text = matchColl.Groups[5].Value;
+            label75.Text = matchColl.Groups[6].Value;
+            label76.Text = matchColl.Groups[7].Value;
+            label77.Text = matchColl.Groups[8].Value;
 
             using (WebClient client = new WebClient())
             {
